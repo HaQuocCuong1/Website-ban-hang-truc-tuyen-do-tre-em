@@ -1,0 +1,210 @@
+.header__navbar {
+    background-image: linear-gradient(var(--premary-color), rgb(170, 108, 100));
+    display: flex;
+    justify-content: space-between;
+}
+.header__navbar--list {
+    list-style: none;
+    padding-left: 20px;
+    list-style: none;
+    margin: 10px 70px;
+}
+.name-admin {
+    font-size: 1.7rem;
+    color: rgb(231, 208, 76);
+}
+.header__navbar--item {
+    font-size: 1.6rem;
+    color: var(--white-color);
+}
+.logout-link {
+    text-decoration: none;
+    color: var(--white-color);
+}
+.logout-link:hover {
+    color: red;
+    cursor: pointer;
+}
+.menu {
+    max-width: 240px;
+    margin-left: 10px;
+    float: left;
+}
+.menu-container {
+    width: 200px;
+    margin: 15px 13px;
+    border: 2px solid rgb(214, 210, 210);
+    border-radius: 5px;
+}
+.menu-header {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    font-weight: 600;
+    padding: 10px 10px;
+    background-color: var(--premary-color);
+}
+.menu-list {
+    list-style: none;
+    padding-left: 0;
+}
+.menu-item--color {
+    color: rgb(241, 62, 38);
+}
+.menu-item {
+    padding: 5px 10px;
+    border-bottom: 1px dashed rgb(218, 213, 213);
+    cursor: pointer;
+}
+.menu-item--link {
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.content {
+    max-width: 973px;
+    float: left;
+}
+.content-product {
+    margin: 15px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid rgb(204, 203, 203);
+}
+.header-product {
+    background-color: var(--premary-color);
+}
+.header-title {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    padding: 10px 20px;
+    display: block;
+}
+.feature {
+    width: 100%;
+    text-align: right;
+}
+.button-add-product {
+    margin: 10px 20px;
+    padding: 7px 20px;
+    background-color: var(--premary-color);
+    outline: none;
+    border: none;
+    color: var(--white-color);
+    border-radius: 2px;
+}
+.button-add-product:hover {
+    background-color: rgb(177, 68, 34);
+}
+.info-product {
+    width: 100%;
+}
+.table-info-product {
+    max-width: 100%;
+    margin: 10px;
+    border-color: rgb(224, 221, 221);
+}
+.info-product-title--item {
+    font-size: 1.4rem;
+}
+.info-product-content--img {
+    max-width: 200px;
+    width: 100px;
+}
+.info-product-content--img img {
+    max-width: 100%;
+    min-width: 20px;
+    width: 100px;
+}
+.info-product-content--item {
+    font-size: 1.4rem;
+    padding: 15px 30px;
+}
+.btnaction-list {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0;
+}
+.btnaction-item {
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+    margin: 5px;
+}
+.btn-delete{
+    background-color: rgb(247, 23, 23);
+}
+.btn-edit {
+    background-color: rgb(52, 24, 233);
+}
+.btn-delete:hover {
+    background-color: rgb(190, 8, 8);
+}
+.btn-edit:hover {
+    background-color: rgb(11, 11, 168);
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    animation: fadeIn linear 0.1s;
+}
+.modal-addproduct--disable {
+    display: none;
+}
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal__body {
+    --growth-from: 0.7s;
+    --growth-to: 1;
+    background-color: var(--white-color);
+    z-index: 1;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+    animation: growth linear 0.1s;
+}
+.auth-form {
+    width: 500px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: var(--white-color)
+}
+.auth-form__container {
+    padding: 0 32px;
+}
+.auth-form__header {
+    text-align: center;
+}
+.auth-form__heading {
+    font-size: 1.6rem;
+}
+.auth-form--title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 5px 0;
+    display: block;
+}
+.auth-form__input {
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    padding: 0 12px;
+    font-size: 1.4rem;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    outline: none;
+    
+}
+.auth-form__controls {
+    margin: 10px;
+    text-align: right;
+}
+

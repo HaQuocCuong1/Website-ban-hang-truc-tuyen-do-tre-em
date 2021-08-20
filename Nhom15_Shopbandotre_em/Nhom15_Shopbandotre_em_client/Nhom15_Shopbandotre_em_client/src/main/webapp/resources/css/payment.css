@@ -1,0 +1,63 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.infoCustomer {
+    width: 50%;
+}
+.infoOrder {
+    width: 50%;
+}
+.infoCustomer_header{
+    border-bottom: 2px solid rgb(212, 209, 209);
+}
+.infoCustomer_header_text {
+
+}
+.infoCustomer_content_table {
+    
+}
+.infoCustomer_content_name {
+    width: 100%;
+    border: 1px solid rgb(223, 218, 218);
+    outline: none;
+    height: 30px;
+    border-radius: 2px;
+}
+.infoCustomer_content {
+    width: 90%;
+    height: 30px;
+    outline: none;
+}
+.infoOrder_title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(226, 219, 219);
+}
+.infoOrder-title-text {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 5px;
+}
+.infoOrder_title-hinhthuc {
+    height: 20px;
+}
+.infoOrder_btn {
+    margin-top: 50px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.btn-dathang {
+    padding: 5px 15px;
+    background-color: rgb(241, 8, 8);
+    color: white;
+    outline: none;
+    border: none;
+}
